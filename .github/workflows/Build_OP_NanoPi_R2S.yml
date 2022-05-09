@@ -1,6 +1,10 @@
 #=================================================
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
+# Author: eSirPl
+#=================================================
+# Description: Build OpenWrt using GitHub Actions
+# Lisence: MIT
 # Author: eSirPlayground
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
@@ -21,10 +25,6 @@ on:
   #watch:
   #  types: [started]
 
-env:
-  UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
-  
 jobs:
   build:
     runs-on: ubuntu-latest
