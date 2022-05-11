@@ -112,5 +112,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: OpenWrt_R2S_eSir
+        name: OpenWrt_R2S_eSir_v1
         path: openwrt/bin
